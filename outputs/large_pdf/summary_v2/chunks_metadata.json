@@ -1,0 +1,270 @@
+{
+  "global_fingerprint": "6e87792ad7229f0248f19c86cbb94527adf4a712781d92f45149ba223295d660",
+  "total_chunks": 11,
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "title": "Front Matter",
+      "char_count": 5093,
+      "page_start": 1,
+      "page_end": 2,
+      "block_count": 13,
+      "section_titles": [
+        "Front Matter",
+        "Attention Is All You Need",
+        "Abstract",
+        "1 Introduction"
+      ],
+      "composite_fingerprint": "f2fd99f2448c8bcc739e002ee3abe239631e76cc6b0bd21d5e3cba76cf3634a8",
+      "metadata": {
+        "page_start": 1,
+        "page_end": 2,
+        "section_titles": [
+          "Front Matter",
+          "Attention Is All You Need",
+          "Abstract",
+          "1 Introduction"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 1,
+      "title": "2 Background",
+      "char_count": 4670,
+      "page_start": 2,
+      "page_end": 3,
+      "block_count": 11,
+      "section_titles": [
+        "2 Background",
+        "3 Model Architecture",
+        "3.1 Encoder and Decoder Stacks"
+      ],
+      "composite_fingerprint": "e3b244d300d558712db71888d7e20afe2d764793a416b997acdf6e63988a3ba1",
+      "metadata": {
+        "page_start": 2,
+        "page_end": 3,
+        "section_titles": [
+          "2 Background",
+          "3 Model Architecture",
+          "3.1 Encoder and Decoder Stacks"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 2,
+      "title": "3.2 Attention",
+      "char_count": 5023,
+      "page_start": 3,
+      "page_end": 5,
+      "block_count": 18,
+      "section_titles": [
+        "3.2 Attention",
+        "3.2.1 Scaled Dot-Product Attention",
+        "3.2.2 Multi-Head Attention",
+        "3.2.3",
+        "Applications of Attention in our Model"
+      ],
+      "composite_fingerprint": "c507c84411aaeb4c4b653c613f4f6eae053db342b4406edff468586780887c09",
+      "metadata": {
+        "page_start": 3,
+        "page_end": 5,
+        "section_titles": [
+          "3.2 Attention",
+          "3.2.1 Scaled Dot-Product Attention",
+          "3.2.2 Multi-Head Attention",
+          "3.2.3",
+          "Applications of Attention in our Model"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 3,
+      "title": "3.3 Position-wise Feed-Forward Networks",
+      "char_count": 3457,
+      "page_start": 5,
+      "page_end": 6,
+      "block_count": 12,
+      "section_titles": [
+        "3.3 Position-wise Feed-Forward Networks",
+        "3.4",
+        "Embeddings and Softmax",
+        "3.5 Positional Encoding"
+      ],
+      "composite_fingerprint": "e428a279a53aee4bcc339be98c982066c05c464184be6f4763f7d94c2fd020ce",
+      "metadata": {
+        "page_start": 5,
+        "page_end": 6,
+        "section_titles": [
+          "3.3 Position-wise Feed-Forward Networks",
+          "3.4",
+          "Embeddings and Softmax",
+          "3.5 Positional Encoding"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 4,
+      "title": "4",
+      "char_count": 4867,
+      "page_start": 6,
+      "page_end": 7,
+      "block_count": 13,
+      "section_titles": [
+        "4",
+        "Why Self-Attention",
+        "5 Training",
+        "5.1 Training Data and Batching",
+        "5.2 Hardware and Schedule",
+        "5.3 Optimizer"
+      ],
+      "composite_fingerprint": "4c83e6734a7869a5f1c8356078e15a683b29f58405ba7e4ba8c9d16c01f9a3c8",
+      "metadata": {
+        "page_start": 6,
+        "page_end": 7,
+        "section_titles": [
+          "4",
+          "Why Self-Attention",
+          "5 Training",
+          "5.1 Training Data and Batching",
+          "5.2 Hardware and Schedule",
+          "5.3 Optimizer"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 5,
+      "title": "5.4 Regularization",
+      "char_count": 3605,
+      "page_start": 7,
+      "page_end": 8,
+      "block_count": 10,
+      "section_titles": [
+        "5.4 Regularization",
+        "6 Results",
+        "6.1 Machine Translation"
+      ],
+      "composite_fingerprint": "4c0741d7255ce149c6c3e28252fbdff1d3ed95d13dec86b975ecf470ffe9d22a",
+      "metadata": {
+        "page_start": 7,
+        "page_end": 8,
+        "section_titles": [
+          "5.4 Regularization",
+          "6 Results",
+          "6.1 Machine Translation"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 6,
+      "title": "6.2 Model Variations",
+      "char_count": 4815,
+      "page_start": 8,
+      "page_end": 9,
+      "block_count": 6,
+      "section_titles": [
+        "6.2 Model Variations"
+      ],
+      "composite_fingerprint": "4a8e799ee64094ea4670e2a601301c492cabd04d6fc3c7a071af40231f93bd60",
+      "metadata": {
+        "page_start": 8,
+        "page_end": 9,
+        "section_titles": [
+          "6.2 Model Variations"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 7,
+      "title": "6.3 English Constituency Parsing",
+      "char_count": 4147,
+      "page_start": 9,
+      "page_end": 10,
+      "block_count": 13,
+      "section_titles": [
+        "6.3 English Constituency Parsing",
+        "7",
+        "Conclusion"
+      ],
+      "composite_fingerprint": "b2ef3b561996f7ce4fe3bced03eff2b5d161e78de0e7ce51a51037846f8d7764",
+      "metadata": {
+        "page_start": 9,
+        "page_end": 10,
+        "section_titles": [
+          "6.3 English Constituency Parsing",
+          "7",
+          "Conclusion"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 8,
+      "title": "References (Part 1)",
+      "char_count": 3800,
+      "page_start": 10,
+      "page_end": 11,
+      "block_count": 2,
+      "section_titles": [
+        "References"
+      ],
+      "composite_fingerprint": "91beb9bfee1e4c740e60aa1a3014dfd367dc35fa6ef2945ffd5d27b1b1ad2641",
+      "metadata": {
+        "page_start": 10,
+        "page_end": 11,
+        "section_titles": [
+          "References"
+        ],
+        "is_continuation": false
+      }
+    },
+    {
+      "chunk_id": 9,
+      "title": "References (Part 2)",
+      "char_count": 3279,
+      "page_start": 12,
+      "page_end": 12,
+      "block_count": 1,
+      "section_titles": [
+        "References"
+      ],
+      "composite_fingerprint": "ce36829ce484c0179402f5ca8269cf075a865af9bfa200835076574d944e4f85",
+      "metadata": {
+        "page_start": 12,
+        "page_end": 12,
+        "section_titles": [
+          "References"
+        ],
+        "is_continuation": true,
+        "continuation_from": "References",
+        "part": 2
+      }
+    },
+    {
+      "chunk_id": 10,
+      "title": "Attention Visuali zations p p y",
+      "char_count": 4694,
+      "page_start": 13,
+      "page_end": 15,
+      "block_count": 4,
+      "section_titles": [
+        "Attention Visuali zations p p y"
+      ],
+      "composite_fingerprint": "ef45a5dd756d49be70942af97c9aad814e99acf6c65284e64994b911c2213992",
+      "metadata": {
+        "page_start": 13,
+        "page_end": 15,
+        "section_titles": [
+          "Attention Visuali zations p p y"
+        ],
+        "is_continuation": false
+      }
+    }
+  ]
+}

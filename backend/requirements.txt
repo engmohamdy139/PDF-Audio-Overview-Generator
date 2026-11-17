@@ -1,0 +1,45 @@
+# =============================================================================
+# PDF Audio Overview Generator - Backend Requirements
+# Environment: pdf-audio (Python 3.11)
+# =============================================================================
+
+# --- Local Submodules / Editable Packages ---
+# Local deep-learning OCR and document layout engine (installed from project root)
+-e ./OCR/indra
+
+# --- Core Direct Dependencies ---
+# HTTP client used by V2 summarization and test scripts
+requests==2.34.2
+
+# --- OCR Engine Direct Dependencies (indra-ocr) ---
+huggingface-hub==0.36.0
+numpy==2.4.6
+onnxruntime==1.31.1
+opencv-python-headless==5.0.0.93
+pypdfium2==5.14.0
+
+# --- Transitive Dependencies (Pinned Environment Snapshot) ---
+# Transitive via requests
+certifi==2026.10.23
+charset-normalizer==3.5.2
+idna==3.20
+urllib3==2.8.0
+
+# Transitive via onnxruntime
+flatbuffers==25.12.19
+packaging==26.3
+protobuf==7.36.2
+
+# Transitive via huggingface-hub
+filelock==4.2.4
+fsspec==2026.9.0
+hf-xet==1.7.1
+PyYAML==6.0.3
+tqdm==4.70.1
+typing_extensions==4.16.0
+
+# --- Optional / Legacy Prototype Dependencies ---
+# Used exclusively by the prototype test in backend/tests/test_tts.py
+# (Speech synthesis has been superseded by standalone C++ Piper TTS)
+click==8.1.8
+gTTS==2.5.4

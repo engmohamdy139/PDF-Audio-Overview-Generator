@@ -1,0 +1,63 @@
+
+from pathlib import Path
+import sys
+import unittest
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(BASE_DIR))
+
+from backend.document_parser.parser import parse_markdown_pages
+
+
+PAGES_DIR = BASE_DIR / "outputs" / "large_pdf" / "pages"
+
+
+class TestDocumentParser(unittest.TestCase):
+
+    def test_large_pdf_structure(self):
+        document = parse_markdown_pages(PAGES_DIR)
+
+        titles = [section.title for section in document.sections]
+
+        self.assertEqual(document.pages, 15)
+        self.assertIn("1 Introduction", titles)
+        self.assertIn("2 Background", titles)
+        self.assertIn("3 Model Architecture", titles)
+
+        self.assertEqual(len(titles), len(set(titles)))
+
+    def test_section_order(self):
+        document = parse_markdown_pages(PAGES_DIR)
+        titles = [section.title for section in document.sections]
+
+        self.assertLess(
+            titles.index("1 Introduction"),
+            titles.index("2 Background"),
+        )
+
+        self.assertLess(
+            titles.index("2 Background"),
+            titles.index("3 Model Architecture"),
+        )
+
+    def test_content_and_page_metadata(self):
+        document = parse_markdown_pages(PAGES_DIR)
+
+        introduction = next(
+            section for section in document.sections
+            if section.title == "1 Introduction"
+        )
+
+        self.assertGreater(len(introduction.content_blocks), 0)
+        self.assertEqual(introduction.page_start, 2)
+
+        for section in document.sections:
+            self.assertGreaterEqual(section.page_end, section.page_start)
+
+            for block in section.content_blocks:
+                self.assertGreaterEqual(block.page, 1)
+                self.assertLessEqual(block.page, document.pages)
+
+
+if __name__ == "__main__":
+    unittest.main()

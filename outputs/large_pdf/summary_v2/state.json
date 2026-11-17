@@ -1,0 +1,128 @@
+{
+  "pipeline_version": "v2",
+  "global_fingerprint": "6e87792ad7229f0248f19c86cbb94527adf4a712781d92f45149ba223295d660",
+  "global_parameters": {
+    "chunk_instruction_hash": "ef2a6a7d6e5a6938f9978a16854eac696e6d0913f6de2c80dd8ac73631c61056",
+    "chunk_max_size": 6000,
+    "chunk_target_size": 5000,
+    "chunker_source_hash": "b26e9d7809af36dfcdd343f2258832af80011128c5a2c5fad249d569c36b8c58",
+    "final_instruction_hash": "958ba9617182b65c250ad1dcf93407b462959458d3f8283ca751be0f4cf9fc8f",
+    "model_name": "qwen2.5:3b-instruct",
+    "num_ctx": 4096,
+    "num_predict": 1024,
+    "ollama_url": "http://localhost:11434/api/generate",
+    "oversized_policy": "keep_atomic",
+    "pages_hash": "37ee43eb7bf6eab5a489e14b80782cd69447a3596746bf11aebb17b2cf75cb69",
+    "parser_source_hash": "61c6ccf6e795ad38a95dcdfee305027277361daf342daa0557ae6370241c6601",
+    "pipeline_file_hash": "36fe430d6681ba1720a644c2ddc9c5835376c505c456913208dcd39ecb10b9a8",
+    "pipeline_version": "v2",
+    "temperature": 0.2,
+    "timeout": 600
+  },
+  "total_chunks": 11,
+  "completed_chunks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "chunks": {
+    "0": {
+      "title": "Front Matter",
+      "char_count": 5093,
+      "composite_fingerprint": "f2fd99f2448c8bcc739e002ee3abe239631e76cc6b0bd21d5e3cba76cf3634a8",
+      "summary_hash": "c0d3cba375785fa422b14427af979c7b1497f111625f6c26b4b50d88c01c5616",
+      "completed": true,
+      "summary_file": "chunk_000.md"
+    },
+    "1": {
+      "title": "2 Background",
+      "char_count": 4670,
+      "composite_fingerprint": "e3b244d300d558712db71888d7e20afe2d764793a416b997acdf6e63988a3ba1",
+      "summary_hash": "b4b02652ec6a902ec392a761f0e21391a7a71211b093d02f3086b3956eaf2956",
+      "completed": true,
+      "summary_file": "chunk_001.md"
+    },
+    "2": {
+      "title": "3.2 Attention",
+      "char_count": 5023,
+      "composite_fingerprint": "c507c84411aaeb4c4b653c613f4f6eae053db342b4406edff468586780887c09",
+      "summary_hash": "76248c80ddda4c9cb36866bbfdaeadf84cdc77e2a59e66ed3b86898d3e8525f4",
+      "completed": true,
+      "summary_file": "chunk_002.md"
+    },
+    "3": {
+      "title": "3.3 Position-wise Feed-Forward Networks",
+      "char_count": 3457,
+      "composite_fingerprint": "e428a279a53aee4bcc339be98c982066c05c464184be6f4763f7d94c2fd020ce",
+      "summary_hash": "2c99ff20275a9e1f5b42a5fc625e99803061f98ea9cdb2233bc5c2c52f33a4a5",
+      "completed": true,
+      "summary_file": "chunk_003.md"
+    },
+    "4": {
+      "title": "4",
+      "char_count": 4867,
+      "composite_fingerprint": "4c83e6734a7869a5f1c8356078e15a683b29f58405ba7e4ba8c9d16c01f9a3c8",
+      "summary_hash": "59e62ce3fa71f6199219e54c81d264f2a6878623e93e171f8902f3b63720c88d",
+      "completed": true,
+      "summary_file": "chunk_004.md"
+    },
+    "5": {
+      "title": "5.4 Regularization",
+      "char_count": 3605,
+      "composite_fingerprint": "4c0741d7255ce149c6c3e28252fbdff1d3ed95d13dec86b975ecf470ffe9d22a",
+      "summary_hash": "f90c82c2ecd4981b23c5540040568dc4a81645bc7f27ddc8d3de5545a9821ca2",
+      "completed": true,
+      "summary_file": "chunk_005.md"
+    },
+    "6": {
+      "title": "6.2 Model Variations",
+      "char_count": 4815,
+      "composite_fingerprint": "4a8e799ee64094ea4670e2a601301c492cabd04d6fc3c7a071af40231f93bd60",
+      "summary_hash": "e886f9e52b66102aec2a9aaf2ceb518d126a926337103d19a009bf4dfa7527bd",
+      "completed": true,
+      "summary_file": "chunk_006.md"
+    },
+    "7": {
+      "title": "6.3 English Constituency Parsing",
+      "char_count": 4147,
+      "composite_fingerprint": "b2ef3b561996f7ce4fe3bced03eff2b5d161e78de0e7ce51a51037846f8d7764",
+      "summary_hash": "26ceb8e05e0c852cb835ddfe8654ff74060cbc6a7964ea8a63b788f8d9ed2a15",
+      "completed": true,
+      "summary_file": "chunk_007.md"
+    },
+    "8": {
+      "title": "References (Part 1)",
+      "char_count": 3800,
+      "composite_fingerprint": "91beb9bfee1e4c740e60aa1a3014dfd367dc35fa6ef2945ffd5d27b1b1ad2641",
+      "summary_hash": "3381c815b9a03a13937d707d5173fd5de281a78e12fc68bf12cb88c0f723826c",
+      "completed": true,
+      "summary_file": "chunk_008.md"
+    },
+    "9": {
+      "title": "References (Part 2)",
+      "char_count": 3279,
+      "composite_fingerprint": "ce36829ce484c0179402f5ca8269cf075a865af9bfa200835076574d944e4f85",
+      "summary_hash": "f8fb26e8a457910b6bb29c90f59736fde922a5fed66bc92542aa4967743e985e",
+      "completed": true,
+      "summary_file": "chunk_009.md"
+    },
+    "10": {
+      "title": "Attention Visuali zations p p y",
+      "char_count": 4694,
+      "composite_fingerprint": "ef45a5dd756d49be70942af97c9aad814e99acf6c65284e64994b911c2213992",
+      "summary_hash": "de3137285d6927a31400d86704303de907fec8878c09fe54c4ab30e4f341000b",
+      "completed": true,
+      "summary_file": "chunk_010.md"
+    }
+  },
+  "final_summary_completed": true,
+  "final_summary_hash": "0bbd53b028c2a40c4fadc7a54033a7e386473fcab286797dcff85bb0ad3c9743"
+}

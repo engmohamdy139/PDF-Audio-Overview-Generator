@@ -1,0 +1,20 @@
+# Environment and secrets
+.env
+.env.*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Testing and caches
+.pytest_cache/
+.coverage
